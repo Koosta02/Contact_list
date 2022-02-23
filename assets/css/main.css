@@ -235,7 +235,7 @@ input, select, textarea {
 	}
 
 	.colorit {
-		color: rgb(182, 49, 49);
+		color: rgba(138, 8, 8, 0.527);
 		font-family: Arial, Helvetica, sans-serif;
 	}
 
