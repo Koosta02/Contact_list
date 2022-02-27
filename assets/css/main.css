@@ -74,6 +74,10 @@ input, select, textarea {
 
 /* Basic */
 
+.logo-img {
+	width: 200px;
+	border-radius: 100%;
+}
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -232,11 +236,13 @@ input, select, textarea {
 
 	.para {
 		margin-left: 30px;
+		font-weight: bold;
 	}
 
 	.colorit {
 		color: rgba(138, 8, 8, 0.527);
 		font-family: Arial, Helvetica, sans-serif;
+
 	}
 
 	sup {
