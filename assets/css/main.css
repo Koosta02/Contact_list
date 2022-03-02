@@ -2998,7 +2998,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			header br {
-				display: none;
+				display: block;
 			}
 
 		}
@@ -3472,7 +3472,7 @@ input, select, textarea {
 			}
 
 				#intro p br {
-					display: none;
+					display: block;
 				}
 
 				#intro + #header {
@@ -4309,6 +4309,7 @@ input, select, textarea {
 		#footer h3,
 		#footer p {
 			font-size: 0.8rem;
+			/* color: red; */
 		}
 
 		@media screen and (max-width: 980px) {
@@ -4350,9 +4351,12 @@ input, select, textarea {
 						}
 
 				#footer form label,
-				#footer h3,
+				#footer h3 {
+					font-size: 1.4rem;
+				}
 				#footer p {
-					font-size: 0.9rem;
+					font-size: 1.2rem;
+					color: rgba(138, 8, 8, 0.527);
 				}
 
 		}
@@ -4386,6 +4390,13 @@ input, select, textarea {
 					#footer > section.split.contact > section:last-child {
 						padding: 2rem;
 					}
+					#footer h3 {
+						font-size: 1.4rem;
+					}
+					#footer p {
+						font-size: 1.2rem;
+						color: rgba(138, 8, 8, 0.527);
+					}
 
 		}
 
@@ -4393,6 +4404,14 @@ input, select, textarea {
 
 			#footer {
 				width: 100%;
+			}
+
+			#footer h3 {
+				font-size: 1.4rem;
+			}
+			#footer p {
+				font-size: 1.2rem;
+				color: rgba(138, 8, 8, 0.527);
 			}
 
 		}
